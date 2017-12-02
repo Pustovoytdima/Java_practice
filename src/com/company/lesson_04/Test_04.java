@@ -15,6 +15,6 @@ package com.company.lesson_04;
 
 public class Test_04 {
     public static void main(String[] args) {
-
+        System.out.println();
     }
 }
