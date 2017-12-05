@@ -16,7 +16,7 @@ public class Test_02 {
         String name = reader.readLine();
         System.out.println("Enter your age");
         int age = Integer.parseInt(reader.readLine());
-        System.out.println("Enter your salary");
+        System.out.println("Enter your salary in $");
         int salary = Integer.parseInt(reader.readLine());
         System.out.println("Hi! My name is " + name + ". My age is " + age + ". My salary is " + (salary+100) + " dollars.");
     }
