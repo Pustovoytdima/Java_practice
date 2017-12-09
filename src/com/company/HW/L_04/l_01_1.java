@@ -18,15 +18,16 @@ public class l_01_1 {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         int a = Integer.parseInt(reader.readLine());
         int b = Integer.parseInt(reader.readLine());
+
         int i = 0;
         while (i < a) {
-            i++;
             int j = 0;
             while (j < b) {
                 System.out.print("S");
                 j++;
             }
             System.out.println();
+            i++;
         }
     }
 }

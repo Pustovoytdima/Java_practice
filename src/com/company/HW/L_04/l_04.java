@@ -30,7 +30,5 @@ public class l_04 {
         } else {
             System.out.println("Ahah Very funny");
         }
-
-
     }
 }

@@ -23,12 +23,11 @@ public class Test_05 {
 //        }
         int m = Integer.parseInt(reader.readLine());
         int n = Integer.parseInt(reader.readLine());
-        for (int i = 0; i < m; i++){
-            for (int j = 0; j < n; j++) {
+        for (int i = 0; i < 2; i++){
+            for (int j = 0; j < 4; j++) {
                 System.out.print("8");
             }
             System.out.println();
         }
-
     }
 }
