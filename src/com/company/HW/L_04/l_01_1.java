@@ -9,7 +9,7 @@ import java.io.InputStreamReader;
  * S-квадрат
  * Вывести на экран квадрат из 10х10 букв S используя цикл while.
  * Буквы в одной строке не разделять.
- * int m = Integer.parseInt(reader.readLine());
+ * int fights = Integer.parseInt(reader.readLine());
  * int n = Integer.parseInt(reader.readLine());
  *
  */
