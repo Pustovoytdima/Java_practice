@@ -15,9 +15,9 @@ public class HW_2 {
         Robot robot1 = new Robot("Farmacetron", 26, 99);
         Robot robot2 = new Robot("Victor", 36, 97);
         if (robot1.fights(robot2)) {
-            System.out.println(robot2.name + " is Winner");
-        } else {
             System.out.println(robot1.name + " is Winner");
+        } else {
+            System.out.println(robot2.name + " is Winner");
         }
     }
 }
@@ -34,7 +34,7 @@ class Robot {
     }
 
     public boolean fights(Robot robot) {
-        if (this.power < robot.power) {
+        if (this.power > robot.power) {
             return true;
         } else {
             return false;

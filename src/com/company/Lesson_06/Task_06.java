@@ -22,9 +22,7 @@ public class Task_06 {
         System.out.println("Hi! my name is " + fish.name + " my owner is " + women.name);
         System.out.println("Hi! my name is " + lion.name + " my owner is " + women.name);
         System.out.println("Hi! my name is " + elephant.name + " my owner is " + women.name);
-
     }
-
 }
 
 class Women {
@@ -35,7 +33,6 @@ class Women {
         this.name = name;
         this.age = age;
     }
-
 }
 
 class Fish {

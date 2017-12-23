@@ -12,12 +12,17 @@ package com.company.Lesson_06;
  */
 public class Task_05 {
     public static void main(String[] args) {
-        Dog dog1 = new Dog(5, "Jora", 69);
+        Dog dog1 = new Dog(5, "Jora", 59);
         Dog dog2 = new Dog(4, "Fiona", 89);
-        if (dog1.fights(dog2)) {
-            System.out.println(dog1.name + " is winner");
-        } else {
-            System.out.println(dog2.name + " is winner");
+
+        try {
+            if (dog1.fights(dog2)) {
+                System.out.println(dog1.name + " is winner");
+            } else {
+                System.out.println(dog2.name + " is winner");
+            }
+        } catch (RuntimeException e){
+            System.out.println("Equals");
         }
     }
 
@@ -36,10 +41,12 @@ class Dog {
     }
 
     public boolean fights(Dog dog) {
-        if (this.power < dog.power) {
+        if (this.power > dog.power) {
             return true;
-        } else {
+        } else if (this.power < dog.power){
             return false;
+        } else {
+            throw new RuntimeException("Equals");
         }
     }
 

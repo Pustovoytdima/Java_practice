@@ -3,6 +3,7 @@ package com.company.Lesson_06;
 /**
  * Created by temap on 17.12.2017.
  */
+
 public class Cat {
     public int age;
     public String name;
